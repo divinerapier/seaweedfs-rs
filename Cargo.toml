@@ -15,10 +15,10 @@ build = "build.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [build-dependencies]
-tonic-build = "0.1.0-alpha.4"
+tonic-build = "0.1.0-alpha.5"
 
 [dependencies]
-tonic = { version = "0.1.0-alpha.4", features = ["rustls"] }
+tonic = { version = "0.1.0-alpha.5", features = ["rustls"] }
 bytes = "0.4"
 prost = "0.5"
 

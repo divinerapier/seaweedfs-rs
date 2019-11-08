@@ -1,5 +1,5 @@
-pub mod filter {
-    tonic::include_proto!("filter");
+pub mod filer {
+    tonic::include_proto!("filer");
 }
 
 pub mod volume {
